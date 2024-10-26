@@ -1,0 +1,79 @@
+.signupPageContainer{
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+  padding: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:whitesmoke;
+}
+
+.signupHolder{
+  width:400px;
+  height:500px;
+}
+
+.RegisterForm{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  padding:1rem 1rem 0rem 1rem;
+}
+
+.RegisterForm .login{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin-top: 23px;
+  height: 55px;
+  background-color: white;
+  border-radius: 90%;
+
+}
+.RegisterForm .login button{
+  outline: none;
+  border: none;
+  background-color: none;
+  
+}
+
+.signupPageContainer input{
+  margin-top: 12px;
+  padding:10px;
+  font-size: 1.2rem;
+  width:90%;
+  height:60px;
+  cursor: Ibeam;
+  margin: 1rem 0rem;
+  border:none;
+  outline:none;
+  background-color: white;
+  border-radius:25px;
+}
+
+.signupHolder input::placeholder{
+  padding: 10px;
+}
+
+.signupHolder input:hover{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.rbtn{
+  width: 150px;
+  border:none;
+  border-radius:5px;
+  border:20px ;
+  height: 50px;
+  border:5px solid rgb(27, 112, 3);
+  transition:border-radius 2s , box-shadow 1s;
+}
+
+.rbtn:hover{
+  border-radius: 25px;
+  box-shadow: rgba(10, 232, 62, 0.852) 0px 7px 29px 0px;
+}
